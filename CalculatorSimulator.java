@@ -76,5 +76,6 @@ public class CalculatorSimulator {
     System.out.println("Your salary : ");
     double empSal = sc.nextDouble();
     TaxCalculator.calculateTax(empName, isIndian, empSal);
+    sc.close();
   }
 }
