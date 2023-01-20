@@ -22,6 +22,5 @@ public class ExceptionDemo {
         }finally{
             System.out.println("Finally block alwas gets exicuted.");
         }
-
     }
 }
