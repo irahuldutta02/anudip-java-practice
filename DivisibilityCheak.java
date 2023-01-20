@@ -22,6 +22,8 @@ public class DivisibilityCheak {
         }catch(NumDivisibilityException e){
             System.out.println(e.getMessage());
         }
-        
+        finally{
+            sc.close();
+        }
     }
 }
