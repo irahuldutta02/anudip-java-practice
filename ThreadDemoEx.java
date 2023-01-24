@@ -1,8 +1,15 @@
 public class ThreadDemoEx extends Thread{
 
     public void run() {
-        System.out.println("Thread is running! " + Thread.currentThread().getName() + " - Priority - "
-                + Thread.currentThread().getPriority());
+        for (int i =1;i<5;i++){
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                System.out.println(e.getMessage());
+            }
+            System.out.println("Thread is running! " + Thread.currentThread().getName() + " - Priority - "
+            + Thread.currentThread().getPriority());
+        }
     }
 
     public static void main(String[] args) {
