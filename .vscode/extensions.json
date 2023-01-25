@@ -2,6 +2,7 @@
     "recommendations": [
       "redhat.java",
       "vscjava.vscode-java-debug",
+      "dracula-theme.theme-dracula",
       "formulahendry.code-runner"
     ]
 }
