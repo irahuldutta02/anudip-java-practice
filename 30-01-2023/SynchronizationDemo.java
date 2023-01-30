@@ -33,7 +33,7 @@ class Thread2 extends Thread{
     }
 }
 
-public class ShronizationDemo{
+public class SynchronizationDemo{
 
     public static void main(String[] args) {
         PrintData pd = new PrintData();
